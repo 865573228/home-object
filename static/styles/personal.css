@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.account{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    background: url("../images/personal-img.jpg") center no-repeat;
+    background-size: 100%;
+    padding: 15px 0;
+}
+.account a{
+    display: inline-block;
+    margin-right: 5%;
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    background: #ca8f58;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.account-s{
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+}
+.head-shot{
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+    background: #fff;
+}
+.head-shot img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.personal-list{
+    width: 100%;
+    margin-top: 10px;
+}
+.personal-list li{
+    float: left;
+    width: 33.33%;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.personal-list li:nth-child(3){
+    border-right: 1px solid #fff;
+}
+.personal-list li:nth-child(4),
+.personal-list li:nth-child(5){
+    border-bottom: 1px solid #fff;
+}
+.personal-list li a{
+    display: block;
+    background: #fff;
+    padding: 10px 0;
+}
+.p-icon{
+    display: block;
+    margin: 0 auto 5px;
+    width:40px;
+    height: 40px;
+}
+.p-icon.f-1{
+    background: url("../images/p-1.png") center no-repeat;
+    background-size: 24px 30px;
+}
+.p-icon.f-2{
+    background: url("../images/p-2.png") center no-repeat;
+    background-size: 23px 30px;
+}
+.p-icon.f-3{
+    background: url("../images/p-3.png") center no-repeat;
+    background-size: 29px 30px;
+}
+.p-icon.f-4{
+    background: url("../images/p-4.png") center no-repeat;
+    background-size: 30px 30px;
+}
+.p-icon.f-5{
+    background: url("../images/p-5.png") center no-repeat;
+    background-size:29px 6px;
+}
+.p-title{
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #707070;
+    text-align: center;
+}

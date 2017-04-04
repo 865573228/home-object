@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.edit-btn{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 45px;
+    background: transparent;
+}
+.address-list{
+    width: 100%;
+    background: #fff;
+}
+.address-list li{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 18% 10px 3%;
+    cursor: pointer;
+}
+.address-list li:last-child{
+    border-bottom: 0;
+}
+.r-title{
+    width: 100%;
+    font-size: 1.3rem;
+    color: #999;
+    line-height: 20px;
+}
+.r-title.selected{
+    color:#814915;
+}
+.r-title em{
+    color: #666;
+}
+.r-title.selected em{
+    color:#814915;
+}
+.r-tag{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #814915;
+    border-radius: 50%;
+    background: #814915 url("../images/del.png") center no-repeat;
+    background-size: 10px 9px;
+
+}
+.r-tag.selected{
+    border: 1px solid #814915;
+    background: #814915 url("../images/del.png") center no-repeat;
+    background-size: 10px 9px;
+}
+.r-edit{
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    margin-top: -12px;
+    width: 24px;
+    height: 24px;
+    background: url("../images/edit.png") center no-repeat;
+    background-size: 20px 20px;
+}
+.add-btn{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    background: #fff url("../images/add.png") 10px no-repeat;
+    background-size: 20px 20px;
+    padding-left: 40px;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 40px;
+}
+.edit-form{
+    width: 100%;
+}
+.edit-line{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding: 0 10px;
+}
+.edit-line:last-of-type{
+    border-bottom: 0;
+}
+.edit-label{
+    float: left;
+    width: 65px;
+    font-size: 1.4rem;
+    color: #999;
+    line-height: 45px;
+}
+.edit-in{
+    float: left;
+    width: 76%;
+    height: 45px;
+    background: #fff;
+    font-size: 1.4rem;
+    color: #666;
+}
+.edit-select{
+    float: left;
+    width: 76%;
+}
+.choose-s{
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #dedede;
+    overflow: hidden;
+    background:#fff url("../images/arrow-down.png") 96% no-repeat;
+    background-size: 10px 6px;
+    padding:7px 4% 7px 10px;
+    font-size: 1.4rem;
+    color: #999;
+}
+.del{
+    float: right;
+    font-size: 1.2rem;
+    color: #ff0000;
+    text-decoration: underline;
+}
+.set-btn{
+    display: block;
+    margin: 20px auto 0;
+    width: 94%;
+    height: 45px;
+    border-radius: 5px;
+    background: #ba6d24;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+.msg{
+    display: none;
+    position: fixed;
+    top:80px;
+    left: 20%;
+    z-index: 50;
+    width: 60%;
+    height: 38px;
+    border-radius: 8px;
+    background: rgba(101,62,24,.8);
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+}

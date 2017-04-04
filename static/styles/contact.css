@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.contact-con{
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.contact-img{
+    display: block;
+    width: 60%;
+    margin: 0 auto 10%;
+}
+.contact-info{
+    width: 100%;
+    border-top: 1px solid #dcdbdb;
+    border-bottom: 1px solid #dcdbdb;
+    padding: .8em 0;
+    font-size: 1.5rem;
+    color: #5a5a5a;
+}

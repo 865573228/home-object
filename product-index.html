@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>乡味</title>
+    <link rel="stylesheet" href="static/styles/global.css?v=1125">
+    <link rel="stylesheet" href="static/styles/index.css?v=1209">
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <a href="javascript:history.go(-1)" class="arrow-back"></a>
+        <h3 class="head-title">乡味</h3>
+        <a href="#" class="head-account"></a>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/index.jpg"></a></div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+    <ul class="pro-list pb15">
+        <li>
+            <img src="static/images/i-1.jpg" alt="">
+            <div class="pro-info clearfix">
+                <span class="pro-left">￥36.00/500g</span>
+                <a href="#" class="pro-btn">去购买</a>
+            </div>
+            <a href="#" class="pro-title text-over">正宗温州鱼饼鱼糕特产</a>
+        </li>
+        <li>
+            <img src="static/images/i-2.jpg" alt="">
+            <div class="pro-info clearfix">
+                <span class="pro-left">￥36.00/800g</span>
+                <a href="#" class="pro-btn">去购买</a>
+            </div>
+            <a href="#" class="pro-title text-over">杭州特产 桂花蜜汁莲藕</a>
+        </li>
+    </ul>
+</div>
+<script src="static/scripts/jquery-2.1.1.min.js?v=1127"></script>
+<script src="static/scripts/fastclick.js?v=1127"></script>
+<script src="static/scripts/idangerous.swiper.min.js?v=1206"></script>
+<script>
+    //图片循环
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination: '.pagination',
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true,
+        calculateHeight:true,
+        autoplay:5000
+    });
+</script>
+</body>
+</html>

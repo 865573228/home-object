@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+.product-info{
+    width: 100%;
+    padding: 10px 2%;
+    background: #fff;
+}
+.p-title{
+    float: left;
+    width: 68%;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 20px;
+}
+.p-t-r{
+    float: right;
+    font-size: 1.1rem;
+    color: #999;
+    line-height: 20px;
+}
+.p-num{
+    float: left;
+    font-size: 1.2rem;
+    color: #e76e05;
+    line-height: 16px;
+}
+.p-num em{
+    font-size: 1.7rem;
+}
+.p-num del{
+    display: block;
+    font-size: 1.1rem;
+    color: #9a9a9a;
+}
+.p-tag{
+    width: 100%;
+    border-top: 1px solid #f1f1f1;
+    background: #e5e5e5;
+    padding:5px 2%;
+}
+.p-tag span{
+    float: left;
+    margin-right: 10px;
+    background: url("../images/tag.png") left no-repeat;
+    background-size: 10px 10px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 25px;
+}
+.content-box{
+    margin-top: 10px;
+    width: 100%;
+    background: #fff;
+    padding: 10px 2%;
+}
+.head-info{
+    width: 100%;
+}
+.head-info dt{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.head-info dt img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.head-info dd{
+    float: left;
+    width: 82%;
+}
+.content-text{
+    width: 100%;
+    padding-left:50px;
+    font-size: 1.1rem;
+    color: #999;
+}
+.c-img-list{
+    width: 100%;
+    padding-left: 50px;
+}
+.c-img-list a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.c-img-list a img{
+    width: 100%;
+    height: 100%;
+}
+.c-more{
+    display: block;
+    margin: 5% auto 0;
+    width: 60%;
+    height: 28px;
+    border: 1px solid #ba6d24;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    line-height: 26px;
+    text-align: center;
+    color: #ba6d24;
+}
+.comment-list{
+    width: 100%;
+    background: #fff;
+    padding:0 2%;
+}
+.comment-list li{
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 0;
+}
+.comment-list li:last-child{
+    border-bottom: 0;
+}
+.foot-comment{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 42px;
+    background: #fff;
+    padding: 0 2%;
+}
+.foot-textarea{
+    float: left;
+    margin-top: 6px;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    background: #f2f2f2;
+    padding:6px 5px;
+    font-size: 1.2rem;
+    color: #7c7c7c;
+}
+.foot-sub{
+    float: left;
+    margin-top: 6px;
+    margin-left: 2%;
+    width: 18%;
+    background: #fff;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 30px;
+}

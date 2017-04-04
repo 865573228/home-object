@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+.form-box{
+    width: 100%;
+    background: #f5f5f5;
+}
+.login-form{
+    width: 100%;
+    border-top: 1px solid #eee;
+
+}
+.l-line{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+    background: #fff;
+}
+.l-label{
+    float: left;
+    margin-left: 3%;
+    width: 20px;
+    height: 49px;
+}
+.l-label.f-1{
+    background: url("../images/icon-ph.png") center no-repeat;
+    background-size: 18px 25px;
+}
+.l-label.f-2{
+    background: url("../images/icon-pwd.png") center no-repeat;
+    background-size: 16px 25px;
+}
+.l-input{
+    float: left;
+    margin-left: 10px;
+    width: 86%;
+    height: 49px;
+    background: #fff;
+    font-size: 1.3rem;
+}
+.l-btn{
+    display: block;
+    margin: 25px auto 0;
+    width: 94%;
+    height: 37px;
+    background: #ba6d24;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+}
+.l-btn.reg{
+    margin: 10px auto 0;
+}
+.l-link{
+    width: 100%;
+    padding: 0 3%;
+    font-size: 1.2rem;
+}
+.l-link a{
+    color: #999;
+}
+.msg{
+    display: none;
+    position: fixed;
+    top:80px;
+    left: 20%;
+    z-index: 50;
+    width: 60%;
+    height: 38px;
+    border-radius: 8px;
+    background: rgba(101,62,24,.8);
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+}
+.reg-form{
+    width: 100%;
+    background: #f5f5f5;
+}
+.reg-line{
+    position: relative;
+    margin-left: 3%;
+    width: 97%;
+    border-bottom: 1px solid #f5f5f5;
+}
+.reg-label{
+    float: left;
+    margin-top: 6px;
+    width: 35px;
+    height: 30px;
+    border-right: 1px dashed #5e5e5e;
+    font-size: 1.3rem;
+    color: #242422;
+    line-height: 30px;
+}
+.reg-input{
+    float: left;
+    width: 88%;
+    height: 42px;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: #242422;
+}
+.reg-input.short{
+    width: 62%;
+    padding: 0 10px 0 0;
+}
+.reg-input.long{
+    float: none;
+    width: 100%;
+    padding: 0 10px 0 0;
+}
+.reg-code{
+    float: left;
+    margin-top: 6px;
+    width: 35%;
+    height: 30px;
+    background: #ba6d24;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.reg-code.coding{
+    background: #c9c9c9;
+    font-size: 1.2rem;
+}

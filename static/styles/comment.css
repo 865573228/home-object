@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.head-info{
+    width: 100%;
+}
+.head-info dt{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.head-info dt img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.head-info dd{
+    float: left;
+    width: 82%;
+}
+.content-text{
+    width: 100%;
+    padding-left:50px;
+    font-size: 1.1rem;
+    color: #999;
+}
+.c-img-list{
+    width: 100%;
+    padding-left: 50px;
+}
+.c-img-list img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

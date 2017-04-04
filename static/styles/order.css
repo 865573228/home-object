@@ -1,0 +1,268 @@
+@charset "utf-8";
+/* CSS Document */
+.info-title{
+    width: 100%;
+    border-bottom:1px solid #d6d6d6;
+    background: url("../images/9.png") 10px no-repeat;
+    background-size: 16px 16px;
+    padding-left: 35px;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 40px;
+}
+.info-title.de{
+    background: #fff;
+    padding-left: 10px;
+}
+.receiver{
+    width: 100%;
+    border-bottom:1px solid #d6d6d6;
+    background: url("../images/6.png") 12px no-repeat;
+    background-size: 12px 18px;
+    padding: 0 10px 0 35px;
+}
+.receiver.de{
+    padding: 5px 10px 5px 35px;
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 18px;
+}
+.receiver a{
+    display: block;
+    background: url("../images/arr-right.png") right no-repeat;
+    padding: 5px 0;
+    background-size: 8px 15px;
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 18px;
+}
+.address{
+    width: 100%;
+    background: url("../images/1.png") 12px no-repeat;
+    background-size: 12px 16px;
+    padding: 0 10px 0 35px;
+}
+.address.de{
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 40px;
+}
+.address a{
+    display: block;
+    background: url("../images/arr-right.png") right no-repeat;
+    background-size: 8px 15px;
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 40px;
+}
+.o-title{
+    width: 100%;
+    border-bottom:1px solid #d6d6d6;
+    background: url("../images/20.png") 10px no-repeat;
+    background-size: 16px 12px;
+    padding: 0 10px 0 35px;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 35px;
+}
+.pro-info{
+    width: 100%;
+    padding: 10px;
+}
+.pro-info dt{
+    float: left;
+    margin-right: 10px;
+    width: 65px;
+    height: 65px;
+}
+.pro-info dt img{
+    width: 100%;
+    height: 100%;
+}
+.pro-info dd{
+    float: left;
+    width: 75%;
+}
+.p-title{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #ababab;
+    line-height: 25px;
+}
+.p-price{
+    float: left;
+    font-size: 1.6rem;
+    color: #e77008;
+    line-height: 35px;
+}
+.p-l-cost{
+    width: 100%;
+    height: 38px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    line-height: 38px;
+}
+.total-price{
+    float: left;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    color: #e77008;
+    line-height: 38px;
+}
+.total-price span{
+    font-size: 1.5rem;
+}
+.num-list{
+    float: right;
+    margin-top: 5px;
+    width: 100px;
+}
+.num-left,
+.num-right{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.num-left{
+    float: left;
+    background:url("../images/minus.png") center no-repeat;
+    background-size: 10px 2px;
+}
+.num-right{
+    float: right;
+    background:url("../images/plus.png") center no-repeat;
+    background-size: 10px 9px;
+}
+.num-in{
+    float: left;
+    width: 40px;
+    height: 30px;
+    background:transparent;
+    color: #666;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.order-list{
+    width: 100%;
+}
+.order-list li{
+    margin-top: 8px;
+    width: 100%;
+    background: #fff;
+}
+.order-state{
+    width: 100%;
+    height: 33px;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: #814915;
+    line-height: 33px;
+    text-align: right;
+}
+.order-i{
+    display: block;
+    width: 100%;
+    padding:10px;
+}
+.order-i img{
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.or-title{
+    float: left;
+    width: 56%;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    color: #ababab;
+    line-height: 25px;
+}
+.or-price{
+    float: right;
+    font-size: 1.5rem;
+    color: #ababab;
+    line-height: 25px;
+    text-align: right;
+}
+.or-price em{
+    display: block;
+    font-size: 1.2rem;
+}
+.or-total{
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: #e77008;
+    line-height: 38px;
+    text-align: right;
+}
+.or-btn{
+    float: right;
+    width: 28%;
+    height: 44px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+}
+.or-btn.yes{
+    background: #ba6d24;
+}
+.or-btn.no{
+    background: #814915;
+}
+.or-state{
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    background: #fff;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 38px;
+}
+.or-state span{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    color: #a2a29f;
+}
+.r-info{
+    width: 100%;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 25px;
+}
+.r-info em{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    color: #999;
+}
+.r-info.first{
+    background: url("../images/r-1.png") 10px no-repeat;
+    background-size: 18px 14px;
+    padding-left: 35px;
+}
+.r-info.second{
+    background: url("../images/r-2.png") 13px no-repeat;
+    background-size: 14px 14px;
+    padding-left: 35px;
+}
+.o-info{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color: #666;
+    line-height: 20px;
+}
+.o-info em{
+    font-size: 1.2rem;
+    color: #999;
+    line-height: 20px;
+}
