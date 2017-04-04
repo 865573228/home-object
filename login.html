@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>乡味</title>
+    <link rel="stylesheet" href="static/styles/global.css?v=1125">
+    <link rel="stylesheet" href="static/styles/login.css?v=1125">
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <a href="javascript:history.go(-1)" class="arrow-back"></a>
+        <h3 class="head-title">乡味</h3>
+        <a href="#" class="head-account"></a>
+        <a href="#" class="head-home"></a>
+    </header>
+    <div class="form-box pt10 pb15">
+        <form action="#" id="loginForm" class="login-form" method="post">
+            <div class="l-line clearfix">
+                <label class="l-label f-1"></label>
+                <input type="text" id="loginPhone" class="l-input" maxlength="11" placeholder="请输入手机号">
+                <!--错误提示-->
+                <div class="msg">手机号格式不正确！</div>
+            </div>
+            <div class="l-line clearfix">
+                <label class="l-label f-2"></label>
+                <input type="password" id="loginPwd" class="l-input" placeholder="请输入密码">
+                <!--错误提示-->
+                <div class="msg">密码格式不正确！</div>
+            </div>
+            <input type="submit" value="登录" class="l-btn">
+        </form>
+    </div>
+    <div class="l-link mt10 clearfix">
+        <a href="#" class="fl">去注册</a>
+        <a href="#" class="fr">忘记密码</a>
+    </div>
+
+</div>
+<script src="static/scripts/jquery-2.1.1.min.js?v=1127"></script>
+<script src="static/scripts/fastclick.js?v=1127"></script>
+<script src="static/scripts/pwd.js?v=1127"></script>
+</body>
+</html>

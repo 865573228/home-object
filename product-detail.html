@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>乡味</title>
+    <link rel="stylesheet" href="static/styles/global.css?v=1125">
+    <link rel="stylesheet" href="static/styles/detail.css?v=1206">
+    <link rel="stylesheet" href="static/styles/photoswipe.css?v=1209">
+</head>
+<body>
+<div class="wrap pb60">
+    <header>
+        <a href="javascript:history.go(-1)" class="arrow-back"></a>
+        <h3 class="head-title">乡味</h3>
+        <a href="#" class="head-account"></a>
+        <a href="#" class="head-home"></a>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="static/images/p-9.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/p-9.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/p-9.jpg"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="static/images/p-9.jpg"></a></div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+    <div class="pr-title">
+        <span>手</span>
+        <span>工</span>
+        <span>古</span>
+        <span>法</span>
+        <span>鱼</span>
+        <span>糕</span>
+    </div>
+    <h3 class="p-c-title"><span>吃鱼不见鱼，吃肉不见肉</span></h3>
+    <img src="static/images/p-10.jpg" class="display-block w100" alt="">
+    <div class="p-video">
+        <iframe src="http://player.youku.com/embed/XNDI0MTEyNjE2" frameborder=0 allowfullscreen></iframe>
+    </div>
+    <div class="detail-con">
+        <img src="static/images/p-11.jpg" alt="">
+    </div>
+    <div class="content-box">
+        <h4 class="font-12 color-1">评论（39）条</h4>
+        <dl class="mt10 head-info clearfix">
+            <dt><img src="static/images/p-6.jpg" alt=""></dt>
+            <dd>
+                <h3 class="font-12 color-1 line-height-20 text-over">最爱刘姥姥的小屁孩</h3>
+                <h4 class="font-1 color-4 line-height-20">2015年100月10日 21:05</h4>
+            </dd>
+        </dl>
+        <h5 class="mt5 content-text">宝贝质量不错，卖家服务周到，发货快，物流及时，非常满意下次有需要还会来光顾的！</h5>
+        <div class="mt10 c-img-list clearfix" id="gallery">
+            <a href="static/images/p-2.jpg"><img src="static/images/p-2.jpg" alt=""></a>
+            <a href="static/images/p-3.jpg"><img src="static/images/p-3.jpg" alt=""></a>
+            <a href="static/images/p-4.jpg"><img src="static/images/p-4.jpg" alt=""></a>
+            <a href="static/images/p-10.jpg"><img src="static/images/p-10.jpg" alt=""></a>
+            <a href="static/images/p-9.jpg"><img src="static/images/p-9.jpg" alt=""></a>
+        </div>
+        <a href="#" class="c-more">查看更多评论</a>
+    </div>
+    <footer class="sign-f clearfix">
+        <a href="#" class="sign-sub line-height-38">我要尝尝</a>
+        <a href="javascript:void(0);" class="sign-sub share line-height-38">与人分享</a>
+    </footer>
+    <!--遮罩层-->
+    <div class="s-mask none"></div>
+    <!--分享弹窗-->
+    <div class="share-box pt15 none">
+        <h3 class="share-title">分享到</h3>
+        <div class="share-list mt15">
+            <a href="#">
+                <img src="static/images/s-1.png" alt="">
+                <span>朋友圈</span>
+            </a>
+            <a href="#">
+                <img src="static/images/s-2.png" alt="">
+                <span>微信</span>
+            </a>
+            <a href="#">
+                <img src="static/images/s-3.png" alt="">
+                <span>请TA尝尝</span>
+            </a>
+            <a href="#">
+                <img src="static/images/s-4.png" alt="">
+                <span>群发福利</span>
+            </a>
+        </div>
+        <a href="javascript:void(0);" class="share-cancel">取消</a>
+    </div>
+</div>
+<script src="static/scripts/jquery-2.1.1.min.js?v=1127"></script>
+<script src="static/scripts/fastclick.js?v=1127"></script>
+<script src="static/scripts/idangerous.swiper.min.js?v=1206"></script>
+<script>
+    //图片循环
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination: '.pagination',
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true,
+        calculateHeight:true,
+        autoplay:5000
+    });
+</script>
+<script src="static/scripts/jquery.bxslider.min.js?v=1209"></script>
+<script src="static/scripts/klass.min.js?v=1209"></script>
+<script src="static/scripts/code.photoswipe-3.0.4.min.js?v=1209"></script>
+<script>
+    $(function() {
+        $("#gallery a").photoSwipe({enableMouseWheel: false, enableKeyboard: false});
+    });
+</script>
+<script src="static/scripts/script.js?v=1203"></script>
+</body>
+</html>

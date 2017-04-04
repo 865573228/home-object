@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <title>乡味</title>
+    <link rel="stylesheet" href="static/styles/global.css?v=1125">
+    <link rel="stylesheet" href="static/styles/sign.css?v=1129">
+</head>
+<body>
+<div class="wrap pb50">
+    <header>
+        <a href="javascript:history.go(-1)" class="arrow-back"></a>
+        <h3 class="head-title">乡味</h3>
+        <a href="#" class="head-account"></a>
+        <a href="#" class="head-home"></a>
+    </header>
+    <img src="static/images/sign-bg.png" class="sign-bg" alt="">
+    <form id="signForm" action="#" method="post">
+        <ul class="sign-box mt10">
+            <li>
+                <div class="clearfix">
+                    <span class="sign-tag first"></span>
+                    <label class="sign-label">我的家乡</label>
+                </div>
+            </li>
+            <div class="clearfix mt5">
+                <label class="choose-label">按省份选择：</label>
+                <select id="Province" class="choose-s" name="province"></select>
+            </div>
+            <div class="clearfix mt8">
+                <label class="choose-label">按城市选择：</label>
+                <select id="City" class="choose-s" name="city"></select>
+            </div>
+            <div class="clearfix mt8 pb15">
+                <label class="choose-label">按区域选择：</label>
+                <select id="Area" class="choose-s" name="area"></select>
+            </div>
+        </ul>
+        <ul class="sign-box mt10">
+            <li class="clearfix">
+                <span class="sign-tag second"></span>
+                <label class="sign-label">详细地址：</label>
+                <input type="text" class="sign-a-i no" placeholder="如栾川县大湾镇马湖村">
+            </li>
+            <li class="clearfix">
+                <span class="sign-tag third"></span>
+                <label class="sign-label">联系电话：</label>
+                <input type="text" class="sign-a-i no" maxlength="11" placeholder="如13526909627">
+            </li>
+            <li class="clearfix">
+                <span class="sign-tag fourth"></span>
+                <label class="sign-label">家乡的特产：</label>
+                <input type="text" class="sign-a-i no" placeholder="如鱼糕">
+            </li>
+        </ul>
+        <h3 class="sign-n"><span></span>我推荐的手艺人</h3>
+        <textarea name="" class="sign-textarea" placeholder="请写下您的推荐人，对他人帮助很大哦~!"></textarea>
+        <h3 class="sign-n"><span></span>上传照片</h3>
+        <ul class="img-list clearfix">
+            <li>
+                <img src="static/images/sign-img.png" alt="">
+                <a href="javascript:void(0);" class="img-delete"></a>
+            </li>
+            <li>
+                <img src="static/images/sign-img.png" alt="">
+                <a href="javascript:void(0);" class="img-delete"></a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="img-add"></a>
+            </li>
+        </ul>
+        <footer class="sign-f clearfix">
+            <input type="submit" class="sign-sub" value="提交">
+        </footer>
+    </form>
+</div>
+<script src="static/scripts/jquery-2.1.1.min.js?v=1127"></script>
+<script src="static/scripts/fastclick.js?v=1127"></script>
+<script src="static/scripts/pcasunzip.js?v=1129"></script>
+<script>
+    new PCAS("province","city","area");
+</script>
+</body>
+</html>
